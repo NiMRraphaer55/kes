@@ -1,0 +1,96 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    /* background-color: #1e1c1c; */
+    background: linear-gradient(black,#333);
+    color: #333;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+  }
+  
+  header {
+    background-color: #0073e6;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+  }
+  
+  header .logo img {
+    height: 50px;
+  }
+  
+  nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 16px;
+    font-weight: bold;
+  }
+  nav a:hover{
+    text-decoration: overline;
+  }
+  .login-container {
+    background-color: white;
+    border-radius: 8px;
+    padding: 40px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    text-align: center;
+}
+
+/* Heading Styling */
+.login-container h2 {
+    margin-bottom: 30px;
+    color: #333;
+    font-size: 24px;
+}
+
+/* Input Fields Styling */
+.login-container input {
+    width: 100%;
+    padding: 12px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-size: 16px;
+}
+
+/* Submit Button Styling */
+.login-container button {
+    width: 100%;
+    padding: 12px;
+    border: none;
+    background-color: #2575fc;
+    color: white;
+    font-size: 18px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+/* Button Hover Effect */
+.login-container button:hover {
+    background-color: #6a11cb;
+}
+
+/* Additional Styling for Links */
+.login-container a {
+    color: #2575fc;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.login-container a:hover {
+    text-decoration: underline;
+}

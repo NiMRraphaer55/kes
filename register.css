@@ -1,0 +1,74 @@
+ /* General Body Styling */
+ body {
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(to right, #3135a1, #2575fc);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+/* Container for Form */
+.register-container {
+    background-color: white;
+    border-radius: 8px;
+    padding: 40px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    width: 350px;
+    text-align: center;
+}
+
+/* Heading Styling */
+.register-container h2 {
+    margin-bottom: 20px;
+    color: #333;
+    font-size: 24px;
+}
+
+/* Input Fields Styling */
+.register-container input {
+    width: 100%;
+    padding: 12px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-size: 16px;
+}
+
+/* Submit Button Styling */
+.register-container button {
+    width: 100%;
+    padding: 12px;
+    border: none;
+    background-color: #2575fc;
+    color: white;
+    font-size: 18px;
+    border-radius: 4px;
+    /* cursor: pointer; */
+}
+
+/* Button Hover Effect */
+.register-container button:hover {
+    background-color: #6a11cb;
+}
+
+/* Additional Styling for Links */
+.register-container a {
+    color: #2575fc;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.register-container a:hover {
+    text-decoration: underline;
+}
+
+/* Responsive Design */
+@media (max-width: 400px) {
+    .register-container {
+        width: 90%;
+        padding: 30px;
+    }
+}
